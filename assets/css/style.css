@@ -2762,15 +2762,15 @@ form.fl-form {
     width: 70vw;
     height: auto;
     display: block;
-    margin: 0 auto 18px auto;
+    margin: 0 auto 0 auto;
     border-radius: 18px;
     box-shadow: 0 2px 12px rgba(0,0,0,0.08);
   }
   .fl-about-img-content {
-    position: static;
+    position: static !important;
     max-width: 95vw;
     width: 100%;
-    margin: 0 auto 18px auto;
+    margin: 16px auto 0 auto !important;
     border-radius: 18px;
     box-shadow: 0 2px 12px rgba(0,0,0,0.08);
     text-align: center;
@@ -2778,6 +2778,8 @@ form.fl-form {
     left: unset;
     bottom: unset;
     transform: none;
-    padding: 18px 8px 14px 8px;
+    padding: 18px 0 12px 0;
+    background: #fff;
+    z-index: 1;
   }
 }
