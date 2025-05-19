@@ -2292,6 +2292,36 @@ form.fl-form {
   top: 30px;
   right: 115px;
 }
+  .fl-about-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .fl-about-right img {
+    max-width: 180px;
+    width: 70vw;
+    height: auto;
+    display: block;
+    margin: 0 auto 16px auto;
+    border-radius: 18px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  }
+  .fl-about-img-content {
+    position: static;
+    max-width: 95vw;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 18px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    text-align: center;
+    top: unset;
+    left: unset;
+    bottom: unset;
+    transform: none;
+    margin-bottom: 24px;
+  }
 }
 @media (max-width: 380px) {
   .fl-follow-me ul li:nth-child(1) {
