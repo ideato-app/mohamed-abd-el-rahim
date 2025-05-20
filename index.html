@@ -554,6 +554,13 @@
 	  var bg = document.querySelector('.fl-dot-bg');
 	  if(bg) bg.style.backgroundPosition = `center ${y * 0.2}px`;
 	});
+
+	// Close sidebar when clicking overlay
+	$(document).ready(function() {
+	  $('.fl-bg-overlay').on('click', function() {
+	    $('body').removeClass('show-class menu-open');
+	  });
+	});
 	</script>
 </body>
 </html>
