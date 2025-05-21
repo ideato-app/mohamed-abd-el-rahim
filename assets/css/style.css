@@ -643,6 +643,9 @@ img.fl-banner0 {
   max-height: 706px;
   object-fit: contain;
   width: 100%;
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
 img.fl-banner01 {
   position: absolute;
